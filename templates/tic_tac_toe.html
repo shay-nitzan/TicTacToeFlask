@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+</head>
+<body>
+    <div class="container">
+        <h1>Tic Tac Toe</h1>
+        <form id="form" method="post" action="/">
+            <input type="hidden" id="row" name="row" value="">
+            <input type="hidden" id="col" name="col" value="">
+        </form>
+        <div class="board">
+            {% for row in board|enumerate %}
+                {% for col in row[1]|enumerate %}
+                    <div class="cell" data-row="{{ row[0] }}" data-col="{{ col[0] }}">{{ col[1] }}</div>
+                {% endfor %}
+            {% endfor %}
+        </div>
+        <div class="message">{{ message }}</div>
+        
+        <form method="get" action="/restart">
+            <button class="restart-button">Restart</button>
+        </form>
+        <form method="get" action="/logout">
+            <button class="logout-button">Logout</button>
+        </form>
+    </div>
+    
+    <script src="{{url_for('static', filename='js/click.js')}}" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+{
+    "users": [
+        {
+            "name": "shay",
+            "password": "1234",
+            "score": 132
+        },
+        {
+            "name": "Yoni",
+            "password": "password",
+            "score": 34
+        },
+        {
+            "name": "Inbar",
+            "password": "password",
+            "score": 52
+        },
+        {
+            "name": "Tal",
+            "password": "password",
+            "score": 11
+        },
+        {
+            "name": "Adi",
+            "password": "password",
+            "score": 63
+        },
+        {
+            "name": "Noa",
+            "password": "password",
+            "score": 45
+        },
+        {
+            "name": "Yael",
+            "password": "password",
+            "score": 77
+        },
+        {
+            "name": "Lior",
+            "password": "password",
+            "score": 92
+        },
+        {
+            "name": "Roni",
+            "password": "password",
+            "score": 23
+        },
+        {
+            "name": "Avi",
+            "password": "password",
+            "score": 64
+        },
+        {
+            "name": "Or",
+            "password": "password",
+            "score": 82
+        },
+        {
+            "name": "Shira",
+            "password": "password",
+            "score": 51
+        },
+        {
+            "name": "Eli",
+            "password": "password",
+            "score": 42
+        },
+        {
+            "name": "Itay",
+            "password": "password",
+            "score": 88
+        },
+        {
+            "name": "Yaniv",
+            "password": "password",
+            "score": 71
+        },
+        {
+            "name": "dudu",
+            "password": "1234",
+            "score": 10
+        },
+        {
+            "name": "juju",
+            "password": "1234",
+            "score": 0
+        },
+        {
+            "name": "shmuel",
+            "password": "1221",
+            "score": 0
+        }
+    ]
+}
